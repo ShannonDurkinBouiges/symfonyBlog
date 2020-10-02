@@ -1,0 +1,41 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello BlogController!{% endblock %}
+
+{% block body %}
+
+<section class="artciles">
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le date à l'heure dans la catégorie Politique</div>
+        <div class="content">
+            <img src="http://placehold.it/350x150" alt="image description">
+            <P>Description</p>
+            <p>Description</p>
+            <a href="{{ path('blogShow') }}" class="btn btn-primary">Lire la suite</a>
+        </div>
+    </article>
+    
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le date à l'heure dans la catégorie Politique</div>
+        <div class="content">
+            <img src="http://placehold.it/350x150" alt="image description">
+            <P>Description</p>
+            <p>Description</p>
+            <a href="{{ path('blogShow') }}" class="btn btn-primary">Lire la suite</a>
+        </div>
+    </article>
+    
+    <article>
+        <h2>Titre de l'article</h2>
+        <div class="metadata">Ecrit le date à l'heure dans la catégorie Politique</div>
+        <div class="content">
+            <img src="http://placehold.it/350x150" alt="image description">
+            <P>Description</p>
+            <p>Description</p>
+            <a href="{{ path('blogShow') }}" class="btn btn-primary">Lire la suite</a>
+        </div>
+    </article>
+</section>
+{% endblock %}
